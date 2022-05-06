@@ -1,0 +1,67 @@
+[
+  {
+    "Role": "collection",
+    "Address": "123.0.1.10",
+    "Weight": 110
+  },
+  {
+    "Role": "collection",
+    "Address": "123.0.1.11",
+    "Weight": 110
+  },
+  {
+    "Role": "collection",
+    "Address": "123.0.1.12",
+    "Weight": 110
+  },
+  {
+    "Role": "collection",
+    "Address": "123.0.1.13",
+    "Weight": 110
+  },
+  {
+    "Role": "collection",
+    "Address": "123.0.1.14",
+    "Weight": 110
+  },
+  {
+    "Role": "collection",
+    "Address": "123.0.1.15",
+    "Weight": 110
+  },
+  {
+    "Role": "consensus",
+    "Address": "123.0.2.10",
+    "Weight": 220
+  },
+  {
+    "Role": "consensus",
+    "Address": "123.0.2.20",
+    "Weight": 220
+  },
+  {
+    "Role": "consensus",
+    "Address": "123.0.2.30",
+    "Weight": 220
+  },
+  {
+    "Role": "execution",
+    "Address": "123.0.3.10",
+    "Weight": 310
+  },
+  {
+    "Role": "verification",
+    "Address": "123.0.4.10",
+    "Weight": 420
+  },
+  {
+    "Role": "verification",
+    "Address": "123.0.4.20",
+    "Weight": 420
+  },
+  {
+    "Role": "access",
+    "Address": "123.0.5.20",
+    "Weight": 430
+  }
+]
