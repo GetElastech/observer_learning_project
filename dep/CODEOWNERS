@@ -1,0 +1,37 @@
+# Collection Stream
+/cmd/collection/** @jordanschalm
+/engine/collection/** @jordanschalm
+/protobuf/services/collection/** @jordanschalm
+
+# Consensus Stream
+/cmd/consensus/** @AlexHentschel @awishformore @zhangchiqing
+/engine/consensus/** @AlexHentschel @awishformore @zhangchiqing
+
+# Execution Stream
+/cmd/execution/** @m4ksio @ramtinms
+/engine/execution/** @m4ksio @ramtinms
+
+# Access Stream
+/cmd/access/** @vishalchangrani
+/engine/access/** @vishalchangrani
+
+# Verification Stream
+/cmd/verification/** @ramtinms @yhassanzadeh13
+/engine/verification/** @ramtinms @yhassanzadeh13
+/module/chunking/** @ramtinms
+/integration/tests/verification @ramtinms @yhassanzadeh13
+
+# Ledger Stream 
+/ledger/** @ramtinms @m4ksio @AlexHentschel
+
+# FVM Stream 
+/fvm/**  @ramtinms @janezpodhostnik
+
+# Networking Stream
+/network/** @yhassanzadeh13 @vishalchangrani
+
+# Cryptography Stream
+/crypto/** @tarakby
+
+# Bootstrap and transit scripts
+/cmd/bootstrap/** @vishalchangrani @ljk662

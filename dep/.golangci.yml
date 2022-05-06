@@ -1,0 +1,45 @@
+run:
+  timeout: 5m
+
+linters-settings:
+  goimports:
+    # put imports beginning with prefix after 3rd-party packages;
+    # it's a comma-separated list of prefixes
+    local-prefixes: github.com/onflow/flow-go
+
+  gosec:
+    # To select a subset of rules to run.
+    # Available rules: https://github.com/securego/gosec#available-rules
+    includes:
+      - G401
+      - G402
+      - G501
+      - G502
+      - G503
+      - G505
+
+linters:
+  enable:
+    - goimports
+    - gosec
+
+issues:
+  exclude:
+    - "builder.Module undefined"
+    - "builder.Component undefined"
+    - "builder.Metrics undefined"
+    - "builder.ComplianceConfig undefined"
+    - "builder.BaseFlags undefined"
+    - "builder.BuildConsensusFollower"
+    - "StakedAccessNodeBuilder has no field or method"
+    - "FlowAccessNodeBuilder has no field or method"
+    - "ObserverNodeBuilder has no field or method"
+    # Disable false positives
+
+  exclude-rules:
+    - path: _test\.go # disable some linters on test files
+      linters:
+        - typecheck
+    # typecheck currently not handling the way we do function inheritance well
+    # disabling for now
+
