@@ -18,4 +18,3 @@ require (
 replace github.com/onflow/flow-go => ../dep
 
 replace mellium.im/sasl => github.com/mellium/sasl v0.2.1
-
