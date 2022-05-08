@@ -11,7 +11,7 @@ start:
 # Stops the container
 .PHONY: stop
 stop: 
-	docker stop CONTAINER avdfd
+	docker stop avdfd
 
 # Runs the unit tests in the image
 .PHONY: test
